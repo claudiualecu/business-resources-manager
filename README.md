@@ -1,13 +1,13 @@
 # movies-and-heroes
 
 1. Introducere
-   Cloud computing reprezint? un ansamblu distribuit de servicii de calcul, aplica?ii, acces la informa?ii ?i stocare de date, f?r? ca utilizatorul s? aib? nevoie s? cunoasc? amplasarea ?i configura?ia fizic? a sistemelor care furnizeaz? aceste servicii.
+   Cloud computing reprezinta un ansamblu distribuit de servicii de calcul, aplicatii, acces la informatii si stocare de date, fara ca utilizatorul sa aiba nevoie sa cunoasca amplasarea si configuratia fizica a sistemelor care furnizeaza aceste servicii.
 2. Descriere problema
        Movies and Heroes este o aplicatie pentru cei care nu cunosc eroii si antagonistii din filmele/serialele vizionate.
        Prin aceasta aplicatie se pot cauta atat filmele vizionate cat si eroii din aceste filme cu adaugarea unor mici informatii despre acestea.
 3. Descriere API
        OMDb API este un serviciu web RESTful pentru a obtine informatii despre filme si seriale, tot continutul(atat informatiile cat si imaginile) sunt mentinute si actualizate de catre utilizatorii acestui API. Acest API aduce informatii de genul : numele filmului cautat, poster-ul acestuia, anul lansarii, distributia si multe altele. Pentru utilizarea acestui API este nevoie de o cheie pe care o poti obtine gratuir prin inregistrarea unui cont pe site-ul acestuia.
-       The superhero API este o surs? de date cuantificat? ?i accesibil? programatic a tuturor supereroilor din universul comic. Toate detaliile sunt luate ?i combinate într-o form? mai u?or de consumat cu software. Apoi a fost creat un API pentru a putea s? fie consumata f?r? probleme. Datele sunt accesibile printr-un API REST. Ca pentru orice alt API trebuie consultata documenta?ia acestuia dac? dori?i s? il folositi. De asemenea, sunt furnizate biblioteci Helper, astfel încât s? poata fie consumat API-ul în alegerea limbii utilizatorului. Ave?i nevoie de un cont facebook pentru a primi tokenul de acces. 
+       The superhero API este o sursa de date cuantificata si accesibila programatic a tuturor supereroilor din universul comic. Toate detaliile sunt luate si combinate într-o forma mai usor de consumat cu software. Apoi a fost creat un API pentru a putea sa fie consumata fara probleme. Datele sunt accesibile printr-un API REST. Ca pentru orice alt API trebuie consultata documentatia acestuia daca doriti sa il folositi. De asemenea, sunt furnizate biblioteci Helper, astfel încât sa poata fie consumat API-ul în alegerea limbii utilizatorului. Aveti nevoie de un cont facebook pentru a primi tokenul de acces. 
 4. Flux de date
        Fluxul de date intre aplicatie si API se face intr-un mod simplu pe baza de request/response. In momentul in care accesezi o anumita cale Http API-ul. Se poate accesa o singura tranzactie pe request iar API-ul iti va aduce datele cerute de utilizator.
        In cadrul aplicatiei Movies and Heroes cererea de date se face pe baza de user input, solicitand informatii de la API-urile utilizate. Utilizatorul completeaza datele necesare si apasa un buton care trimite un request la baza de date a API-urilor folosite. In momentul in care API-ul primeste acest request, trimite inapoi datele solicitate. Aceste date sunt preluate de aplicatie iar anumite date sunt afisate in interfata utilizatorului.
@@ -22,8 +22,8 @@
 {"response": "success","results-for": "hawkeye","results": [{"id": "313","name": "Hawkeye","powerstats": {},"biography": {},"appearance": {},"work": {},"connections": {},"image": {}},{"id": "314","name": "Hawkeye II","powerstats": {},"biography": {},"appearance": {},"work": {},"connections": {},"image": {}}]}
 
 6. Metode http
-       Pentru aceasta aplicatie a fost folosita doar metoda GET. Aceasta este cea mai folosit? metod?, fiind utilizat? atunci când serverului i se cere o resurs?.
-7. Autentificare ?i autorizare servicii utilizate
+       Pentru aceasta aplicatie a fost folosita doar metoda GET. Aceasta este cea mai folosita metoda, fiind utilizata atunci când serverului i se cere o resursa.
+7. Autentificare si autorizare servicii utilizate
        Metodele de autentificare folosite pentru accesa serviciile utilizate de aplicatie sunt cheile API pe care le poti obtine prin inregistrarea pe site-urile API-urilor. Aceste chei se folosesc pentru a putea accesa informatiile puse de aceste API la dispozitia utilizaoturlui.
 
 
