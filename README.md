@@ -22,10 +22,12 @@
 5. Exemple de request/response
 
     Request1: http://www.omdbapi.com/?t=avengers&apikey=9ba301ca
+    
     Response1: 
 {"Title": "The Avengers","Year": "2012","Rated": "PG-13","Released": "04 May 2012","Runtime": "143 min","Genre": "Action, Adventure, Sci-Fi","Director": "Joss Whedon","Writer": "Joss Whedon (screenplay), Zak Penn (story), Joss Whedon (story)","Actors": "Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth","Plot": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.","Language": "English, Russian, Hindi","Country": "USA","Awards": "Nominated for 1 Oscar. Another 38 wins & 79 nominations.","Poster": "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg","Ratings": [],"Metascore": "69","imdbRating": "8.0","imdbVotes": "1,225,316","imdbID": "tt0848228","Type": "movie","DVD": "25 Sep 2012","BoxOffice": "$623,279,547","Production": "Walt Disney Pictures","Website": "N/A","Response": "True"}
 
    Request2: https://www.superheroapi.com/api.php/1905472796253293/search/hawkeye
+   
    Response2:{"response": "success","results-for": "hawkeye","results": [{"id": "313","name": "Hawkeye","powerstats": {},"biography": {},"appearance": {},"work": {},"connections": {},"image": {}},{"id": "314","name": "Hawkeye II","powerstats": {},"biography": {},"appearance": {},"work": {},"connections": {},"image": {}}]}
 
 6. Metode http
