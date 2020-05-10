@@ -50,7 +50,7 @@ function populateMovieCards(movieList) {
              </div>`
     });
 
-    $('#movie-list').html(html);
+    $('#list').html(html);
 }
 function showHero(heroes){
     
@@ -65,5 +65,5 @@ function showHero(heroes){
              </div>`
     });
 
-    $('#hero-details').html(html);
+    $('#list').html(html);
 }
